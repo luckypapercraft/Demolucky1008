@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.bottom-menu-custom{
+    display: none;
+}
+.nav-icon-custom{
+    color: white;
+    font-size: 25px;
+}
+.checkout-icon{
+    font-size: 450px;
+}
+@media (max-width: 1280px){
+    .nav-name-custom{
+    color: white;
+    font-size: 15px;
+        display: block
+}
+.checkout-icon{
+    font-size: 400px;
+}
+    .custom-offcanvas-menu-99{
+        display: none
+    }
+    .bottom-menu-custom{
+    display: block;
+}
+
+#yukari{
+    display:none;
+    position:fixed;
+    bottom:95px;
+    right:25px;
+    background:#00b2f2;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+}
+@media (max-width: 992px){
+    .nav-name-custom{
+    color: white;
+    font-size: 15px;
+        display: block
+}
+.checkout-icon{
+    font-size: 650px;
+}
+.dc-server-widget{
+    width: 100%;
+}
+#yukari{
+    display:none;
+    position:fixed;
+    bottom: 95px;
+    right:25px;
+    background:#00b2f2;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+    .custom-offcanvas-menu-99{
+        display: none
+    }
+    .bottom-menu-custom{
+    display: block;
+}
+    .about-image{
+        margin: auto
+    }
+    .hiden-product-img{
+        height: 400px;
+    }
+}
+#yukari{
+    display:none;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#14f200;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+#yukari i{
+    color:#fff;
+    font-size:20px;
+}
+#yukari:hover{
+    background-color:#2fc900
+} 
+
+@media (max-width: 820px){
+    .nav-name-custom{
+    color: white;
+    font-size: 15px;
+        display: none
+}
+.dc-server-widget{
+    width: 100%;
+}
+#yukari{
+    display:none;
+    position:fixed;
+    bottom:95px;
+    right:25px;
+    background:#14f200;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+    .custom-offcanvas-menu-99{
+        display: none
+    }
+    .bottom-menu-custom{
+    display: block;
+}
+.hiden-product-img{
+    height: 250px;
+}
+.dc-server-widget{
+    width: 100%;
+}
+}
+@media (max-width: 550px){
+    .dc-server-widget{
+        width: 100%;
+    }
+    .checkout-icon{
+        font-size: 450px;
+    }
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:95px;
+        right:25px;
+        background:#14f200;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999
+    }
+}
+.dc-server-widget{
+    width: 100%;
+}
+.fg-text{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.contact-map{
+    width: 100%;
+}
+@media (max-width: 420px){
+    .about-image{
+        width: 365px
+    }
+    .checkout-icon{
+        font-size: 280px;
+    }
+    .dc-server-widget{
+        width: 100%;
+    }
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:95px;
+        right:25px;
+        background:#14f200;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999
+    }
+}
+.dc-server-widget{
+    width: 100%;
+}
+.fg-text{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.contact-map{
+    width: 100%;
+}
+@media (max-width: 393px){
+    .about-image{
+        width: 355px;
+         height: 355px;
+    }
+    .dc-server-widget{
+        width: 100%;
+    }
+    .checkout-icon{
+        font-size: 270px;
+    }
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:95px;
+        right:25px;
+        background:#14f200;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999
+    }
+}
+@media (max-width: 325px){
+    .about-image{
+        width: 300px;
+         height: 300px;
+    }
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:95px;
+        right:25px;
+        background:#14f200;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999
+    }
+}
+@media (max-width: 320px){
+        .nav-name-custom{
+    color: white;
+    font-size: 25px;
+        display: none;
+            
+}
+#yukari{
+    display: block;
+    position:fixed;
+    bottom:95px;
+    right:25px;
+    background:#14f200;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+    .about-image{
+        width: 265px;
+        height: 265px
+    }
+    a.navbar-brand{
+        font-size: 15px;
+    }
+}
+.main-custom{
+    background-image: url(../images/FZ3L_SPaUAEqxUI.jpg_large);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center
+}
+.main-custom p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.main-custom h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.custom-bg-light{
+    background: #F5F5F5
+}
+.custom-bg-dark{
+    background: #303030
+}
+.g-ytsubscribe{
+    position:fixed;
+    bottom:95px;
+    left:25px;
+    background:#14f200;
+    text-align:center;
+    line-height: 50px;
+    border-radius:35px;
+    transition:all .3s ease;
+    z-index:999
+}
+
+
+
+
